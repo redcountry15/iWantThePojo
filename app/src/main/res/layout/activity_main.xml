@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    android:layout_marginTop="@dimen/activity_vertical_margin"
+    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    android:layout_marginRight="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    >
+
+
+    <Button
+        android:id="@+id/btnMove"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PindahActity"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+
+    <Button
+        android:id="@+id/btnMoveActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pindah Activity dengan data"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+
+
+    <Button
+        android:id="@+id/btnMoveObject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PindahActity dengan object"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+
+
+    <Button
+        android:id="@+id/btnDial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dial_number"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+
+
+    <Button
+        android:id="@+id/btnMoveRslt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/move_for_result"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtRslt"
+        android:gravity="center"
+        android:text="@string/result_from_activity"
+        android:textSize="24sp"
+
+        />
+
+
+
+
+</LinearLayout>

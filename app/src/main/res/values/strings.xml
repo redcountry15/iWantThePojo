@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">iWantThePojo</string>
+    <string name="dial_number">Dial Number</string>
+    <string name="move_for_result">Move for Result</string>
+    <string name="result_from_activity"> Result From Activity</string>
+    <string name="choose_number">Choose Number</string>
+</resources>
